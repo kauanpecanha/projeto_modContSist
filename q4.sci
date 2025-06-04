@@ -2,13 +2,13 @@
 s = poly(0, 's');
 
 // polinômio característico do denominador
-p = 1*s^2 + 0.4*s + 0.135;
+p = 8.33*s^3+4.33*s^2 + 1.23*s + 0.43;
 
 // aplicação do critério de Routh-Hurwitz
 [R, changes] = routh_t(p);
 
 // Tabela de Routh-Hurwitz do polinômio
-disp("Tabela de Routh-Hurwitz do polinômio 1*s^2 + 0.4*s + 0.135");
+disp("Tabela de Routh-Hurwitz do polinômio 8.33*S^3+4.33*s^2 + 1.23*s + 0.43");
 disp(R);
 
 // Análise do número de trocas de sinal
