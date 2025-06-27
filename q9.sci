@@ -1,3 +1,5 @@
+clear;
+clc;
 // Define o numerador e o denominador
 num = 0.02;
 den = [1, 0.4, 0.1];
